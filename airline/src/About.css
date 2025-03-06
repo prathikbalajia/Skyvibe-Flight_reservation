@@ -1,0 +1,130 @@
+body {
+    background-color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.aboutpage {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.aboutpage img {
+    scale: 115%;
+
+}
+
+.herosection {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.herosection h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #0077cc;
+}
+
+.highlightalt {
+    color: #8a2be2;
+    font-style: italic;
+}
+
+
+.herosection img {
+    width: 90%;
+    margin-left: 400px;
+    max-width: 500px;
+    border-radius: 20px;
+    margin-top: 80px;
+    margin-left: 530px;
+}
+
+.p {
+    margin: 0;
+}
+
+.policy {
+    margin-top: 55px;
+}
+
+.aboutcontent p {
+    padding: 51px;
+    font-size: 20px;
+    font-weight: 540;
+    line-height: 1.9;
+    color: #333;
+    max-width: 190%;
+    font-style: italic;
+    margin-right: 90px;
+    margin-left: 235px;
+}
+
+.sp {
+    color: #0077cc;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
+.featuressection {
+    background-color: #f9f9f9;
+    padding: 60px;
+    text-align: center;
+}
+
+.featuressection h2 {
+    font-size: 2.5rem;
+    color: #002855;
+}
+
+.featuressection ul {
+    list-style: none;
+    padding: 0;
+}
+
+.featuressection li {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #0077cc;
+}
+
+.contactsection {
+    background-color: #002855;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.contactsection h2 {
+    font-size: 2rem;
+}
+
+.contactsection p {
+    font-size: 18px;
+}
+
+.policy {
+    margin-top: 55px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.featuressection p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.heading1{
+    margin-bottom: 20px;
+}
+.policy{
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+.featuressection h2{
+    font-size: 30px;
+}

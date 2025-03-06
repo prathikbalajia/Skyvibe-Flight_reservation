@@ -1,0 +1,5 @@
+{
+    "watch":["index.js","formmodel.model.js"],
+    "ext":".js,.json",
+    "exec":" node index.js"
+}

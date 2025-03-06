@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color: white;
+}
+
+.password-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.password-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.password-wrapper input {
+    width: 100%;
+    padding: 10px 40px 10px 10px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.logincontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+.imagecontainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+}
+
+.imagecontainer img {
+    max-width: 90%;
+    height: auto;
+}
+
+.loginform {
+    font-family: "Hanken Grotesk", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    flex: 1;
+    background: white;
+    padding: 5px 45px;
+    border-radius: 30px;
+    box-shadow: 12px 24px 28px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    font-size: 18px;
+    margin-right: 195px;
+    align-items: center;
+}
+
+.loginform h2 {
+    margin-bottom: 20px;
+    color: #1b5898;
+}
+
+.inputgroup {
+    margin-bottom: 15px;
+}
+
+.inputgroup label {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.inputgroup input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.inputgroup input:focus {
+    border-color: #8fc0f4;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2d88eb;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #6ca3de;
+}
+
+.error-message {
+    color: rgb(242, 74, 74);
+    font-size: 16px;
+    margin-top: 2px;
+    margin-left: 5px;
+    height: 16px;
+    line-height: 16px;
+    display: block;
+}
+
+.inputgroup label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.inputgroup {
+    margin-bottom: 28px;
+    margin-bottom: 14px;
+}
+
+.inputgroup input {
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #aaa;
+    border-radius: 6px;
+}
+
+.inputgroup label {
+    font-size: 18px;
+    margin-bottom: 2px;
+    display: block;
+}
+
+.inputgroup input {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #aaa;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.inputgroup input:focus {
+    border-color: #2d88eb;
+    outline: none;
+    box-shadow: 0px 0px 8px rgba(45, 136, 235, 0.3);
+}
