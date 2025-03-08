@@ -1,115 +1,136 @@
-.secondpage{
-    text-align:center;
-    padding:30px;
-    min-height:100vh;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    font-family: "Hanken Grotesk", serif;
-    font-optical-sizing: auto;
-    font-weight:weight;
-    font-style: normal;
-    box-shadow: #000000;
-    max-width: 100%;
+.secondpage {
+  text-align: center;
+  padding: 30px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Hanken Grotesk", serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  box-shadow: #000000;
+  max-width: 100%;
 }
-  .h1{
-    font-size:2.0rem;
-    margin-bottom:20px;
-    color: #fff;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
-    font-family:"Poppins",sans-serif;
-     }
-  .flightcontainer{
-    display:grid;
-    grid-template-columns:repeat(3, 1fr);
-    gap:40px;
-    width:90%;
-    max-width:1200px;
-    margin:auto;
-  }
-  .flight-box{
-    background: rgba(255, 255, 255, 0.9);
-    border-radius:35px;
-    padding:20px;
-    text-align:center;
-    box-shadow:0px 8px 20px rgba(0, 0, 0, 0.3);
-    transition:transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-    position:relative;
-    overflow:hidden;
-    display:flex;
-    flex-direction:column;
-    justify-content:space-between;
-    align-items:center;
-    gap:20px;
-    width: 80%;
-    transition: opacity 0.5s, transform 0.5s ease-in-out;
-  }
-  .flight-box:hover{
-    transform:translateY(-8px);
-    box-shadow:1px 4px 8px rgba(0, 0, 0, 0.4);
-  }
-  .location-info{
-    font-size:1.3rem;
-    margin-bottom:15px;
-    font-family:"Poppins",sans-serif;
-    position:relative;
-    z-index:1;
-  }
-  .traveler-container{
-    margin-top:20px;
-    position:relative;
-    z-index:1;
-  }
-  .traveler-label{
-    font-size:1rem;
-    font-weight:bold;
-    color: #333;
-    margin-right:5px;
-  }
-  .traveler-select {
-    padding:8px;
-    font-size:1rem;
-    border-radius:5px;
-    border:1px solid #ccc;
-    cursor:pointer;
-    background: #fff;
-  }
-  .go-button{
-    padding:10px;
-    font-size:1rem;
-    font-weight:bold;
-    background:linear-gradient(135deg, #ff416c, #ff4b2b);
-    color: white;
-    border:none;
-    border-radius:20px;
-    cursor:pointer;
-    transition:all 0.4s ease-in-out;
-    margin-top: -1px; 
-    width: 90px;
+
+.h1 {
+  font-size: 2.0rem;
+  margin-bottom: 20px;
+  color: #fff;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  font-family: "Poppins", sans-serif;
 }
-.go-button:hover{
-    background:linear-gradient(135deg, #f6225a, #ff5733);
-    transform:scale(1.05);
+
+.flightcontainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
 }
-  @media(max-width:1024px){
-    .flight-container{
-      grid-template-columns:repeat(2,1fr);
-    }
-  }
-  @media(max-width:768px){
-    .flight-container{
-      grid-template-columns:1fr;
-    }
-    .second-page,h1{
-        color: #ccc;
-    }
-   .h1{
-    font-size:2px;
-    margin-top:-20px;
-    text-align:center; 
+
+.flight-box {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 35px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  width: 80%;
+  transition: opacity 0.5s, transform 0.5s ease-in-out;
 }
-.flight-box{
-      width:60px;
-     
-    }
+
+.flight-box:hover {
+  transform: translateY(-8px);
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.location-info {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  z-index: 1;
+}
+
+.traveler-container {
+  margin-top: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.traveler-label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  margin-right: 5px;
+}
+
+.traveler-select {
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  background: #fff;
+}
+
+.go-button {
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+  margin-top: -1px;
+  width: 90px;
+}
+
+.go-button:hover {
+  background: linear-gradient(135deg, #f6225a, #ff5733);
+  transform: scale(1.05);
+}
+
+@media(max-width:1024px) {
+  .flight-container {
+    grid-template-columns: repeat(2, 1fr);
   }
+}
+
+@media(max-width:768px) {
+  .flight-container {
+    grid-template-columns: 1fr;
+  }
+
+  .second-page,
+  h1 {
+    color: #ccc;
+  }
+
+  .h1 {
+    font-size: 2px;
+    margin-top: -20px;
+    text-align: center;
+  }
+
+  .flight-box {
+    width: 60px;
+
+  }
+}
+
+.class {
+  display: flex;
+  gap: 5px; 
+}

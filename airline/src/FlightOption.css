@@ -1,34 +1,66 @@
 .flight-box {
-    border-radius: 10px;
-    padding:30px;
-    margin:20px;
-    box-shadow:0 4px 8px rgba(0, 0, 0, 0.2);
-    text-align:center;
-    max-width: 450px;
-    
-  }
-  .flight-image {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
-    border-radius: 28px;
-  }
-  .flight-title {
-    font-size: 18px;
-    margin: 10px 0;
-  }
-  .flight-description {
-    font-size: 14px;
-    color: #555;
-    margin-bottom: 10px;
-  }
-  .Time{
-    font-size: 15px;
-  }
-  .prize{
-    font-size: 18px;
-  }
-  body{
-    background-color: aliceblue;
-  }
- 
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 450px;
+
+}
+
+.flight-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 28px;
+}
+
+.flight-title {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.flight-description {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.Time {
+  font-size: 15px;
+}
+
+.prize {
+  font-size: 18px;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+.classselect{
+  margin-bottom: 20px;
+  padding: -90px;
+}
+
+.class{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.traveler-container,
+.classselect {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px; 
+  margin-bottom: -20px;}
+
+.traveler-label, .class {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.classselect {
+  margin-bottom: 5px; 
+}

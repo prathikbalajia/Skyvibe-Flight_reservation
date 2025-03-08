@@ -11,9 +11,9 @@ const PaymentPage = () => {
   return (
     <div className="paymentpage" style={{backgroundColor:"white"}}>
       <div className="paymentdetails">
-        <h1>💳 Payment Details</h1>
+        <h1>Payment Details</h1>
         <p>You're booking a flight from <strong>{from}</strong> to <strong>{to}</strong></p>
-        <p>👥 Travellers: {travelers}</p>
+        <p> Travellers: {travelers}</p>
         <p>Price: {finPrice} INR</p>
       </div>
       <form className="paymentform">

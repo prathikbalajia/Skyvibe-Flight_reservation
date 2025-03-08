@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./FlightOption.css";
-const FlightOption = ({ from, to, time, date, prize, image, description }) => {
+const FlightOption = ({ from, to, time, date, prize, image, description, flightClass }) => {
   const navigate = useNavigate();
   const [travelers, setTravelers] = useState("1");
   const handleGoClick = () => {
@@ -32,6 +32,9 @@ const FlightOption = ({ from, to, time, date, prize, image, description }) => {
             ))}
           </select>
         </div>
+      </div>
+      <div className="class">
+        <strong>Category:</strong> <span style={{ fontWeight: "50" }}>{flightClass}</span>
       </div>
       <button className="go-button" onClick={handleGoClick}>
         Go

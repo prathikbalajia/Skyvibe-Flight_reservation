@@ -54,9 +54,9 @@ export default function About() {
         viewport={{ once: true }}
         transition={{ duration: 1 }}>
         <h2>Contact Us</h2>
-        <p>📍 123 SkyVibe Tower,Coimbatore,Tamil Nadu,India</p>
-        <p>📧 support@skyvibe.com</p>
-        <p>☎️ +1(800)123-4567</p>
+        <p> 123 SkyVibe Tower,Coimbatore,Tamil Nadu,India</p>
+        <p> support@skyvibe.com</p>
+        <p> +1(800)123-4567</p>
       </motion.section>
     </div>
   );
