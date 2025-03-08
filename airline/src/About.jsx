@@ -11,7 +11,7 @@ export default function About() {
         transition={{ duration: 1 }}>
         <h1>We are a team of <span className="highlight">innovators</span> and <span className="highlightalt">travel experts</span></h1>
         <motion.img
-          src="aimg5.png"
+          src="./aimg5.png" alt="hello"
           initial={{ scale: 1.9 }}
           animate={{ scale: 1 }}
           transition={{ duration: 1 }} />
